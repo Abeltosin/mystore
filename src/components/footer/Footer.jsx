@@ -3,13 +3,13 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='container-fluid overflow-hidden' style={{background: 'rgba(0, 150, 255, 0.5)', minHeight: 400}}>
-      <div className="row row-cols-sm-2 d-flex justify-content-center" style={{padding: 30}}>
+      <div className="row row-cols-sm-2 justify-content-center" style={{padding: 30}}>
         <div className="col col-md-6 col-lg-3">
             <h3>OTA-MART</h3>
             <p>Discover the unparalleled shopping experience awaiting you at Ota-Mart. With our vast array of handpicked products, exceptional customer service, and unbeatable prices, we're committed to redefining your online shopping journey. Join our community today and embark on a seamless voyage of convenience, quality, and savings.</p>
         </div>
         <div className="col col-md-6 col-lg-3">
-            <h3 className='ps-6'>About Us</h3>
+            <h3 className=''>About Us</h3>
             <ul className='list-group list-group-flush' style={{listStyle: 'none',}}>
                 <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>Integrity</li>
                 <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>Trust Worthy</li>
@@ -20,9 +20,9 @@ const Footer = () => {
                 <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>Terms & Conditions</li>
             </ul>
         </div>
-        <div className="row row-cols-sm-2 d-flex justify-content-center">
+        <div className="row row-cols-sm-2 justify-content-center">
         <div className="col col-md-6 col-lg-3">
-            <h3 className='ps-2'>Customer Care</h3>
+            <h3 className=''>Customer Care</h3>
             <ul className='list-group list-group-flush' style={{listStyle: 'none',}}>
             <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>ota@help.hotline.com</li>
                 <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>07036897888</li>
@@ -30,7 +30,7 @@ const Footer = () => {
             </ul>
         </div>
         <div className="col col-md-6 col-lg-3">
-            <h3 className='ps-2'>Contact Us</h3>
+            <h3 className=''>Contact Us</h3>
             <ul className='list-group list-group-flush' style={{listStyle: 'none',}}>
             <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>07, Victory Estate, Isolo, LAgos, Nigeria</li>
                 <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>Pgone: 07036897888</li>
