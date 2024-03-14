@@ -20,6 +20,7 @@ const Footer = () => {
                 <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>Terms & Conditions</li>
             </ul>
         </div>
+        <div className="row row-cols-sm-4 d-flex justify-content-center">
         <div className="col col-md-6 col-lg-3">
             <h3 className='ps-2'>Customer Care</h3>
             <ul className='list-group list-group-flush' style={{listStyle: 'none',}}>
@@ -36,6 +37,7 @@ const Footer = () => {
                 <li className='list-group-item border-0' style={{background: 'rgba(0, 150, 255, 0.001)'}}>Email:help@gmail.0ta</li>
             </ul>
         </div>
+          </div>
       </div>
     </div>
   )
