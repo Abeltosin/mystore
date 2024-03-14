@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='container-fluid overflow-hidden' style={{background: 'rgba(0, 150, 255, 0.5)', minHeight: 400}}>
-      <div className="row row-cols-sm-2 d-flex justify-content-center" style={{padding: 30}}>
+      <div className="row row-cols-sm-4 d-flex justify-content-center" style={{padding: 30}}>
         <div className="col col-md-6 col-lg-3">
             <h3>OTA-MART</h3>
             <p>Discover the unparalleled shopping experience awaiting you at Ota-Mart. With our vast array of handpicked products, exceptional customer service, and unbeatable prices, we're committed to redefining your online shopping journey. Join our community today and embark on a seamless voyage of convenience, quality, and savings.</p>
